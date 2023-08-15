@@ -1,0 +1,38 @@
+[30;1m2023-07-31 14:39:17[0m [34;1mINFO    [0m [35m__main__[0m -> Fin.AI#8060 is now running!
+[30;1m2023-07-31 14:40:13[0m [31mERROR   [0m [35msrc.setChatbot[0m -> Error while set chatbot: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+[31mTraceback (most recent call last):
+  File "C:\Users\Roki\Desktop\Bard-Discord-bot-main\DiscordBot-BardGPT-main\src\setChatbot.py", line 56, in set_personal_chatbot
+    users_chatbot[user_id] = UserChatbot(session_id)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\Desktop\Bard-Discord-bot-main\DiscordBot-BardGPT-main\src\setChatbot.py", line 31, in __init__
+    self.chatbot = Bard(token=session_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\AppData\Local\Programs\Python\Python311\Lib\site-packages\bardapi\core.py", line 67, in __init__
+    self.SNlM0e = self._get_snim0e()
+                  ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\AppData\Local\Programs\Python\Python311\Lib\site-packages\bardapi\core.py", line 506, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.[0m
+[30;1m2023-07-31 14:40:19[0m [31mERROR   [0m [35msrc.setChatbot[0m -> Error while set chatbot: __Secure-1PSID value must end with a single dot. Enter correct __Secure-1PSID value.
+[31mTraceback (most recent call last):
+  File "C:\Users\Roki\Desktop\Bard-Discord-bot-main\DiscordBot-BardGPT-main\src\setChatbot.py", line 56, in set_personal_chatbot
+    users_chatbot[user_id] = UserChatbot(session_id)
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\Desktop\Bard-Discord-bot-main\DiscordBot-BardGPT-main\src\setChatbot.py", line 31, in __init__
+    self.chatbot = Bard(token=session_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\AppData\Local\Programs\Python\Python311\Lib\site-packages\bardapi\core.py", line 67, in __init__
+    self.SNlM0e = self._get_snim0e()
+                  ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Roki\AppData\Local\Programs\Python\Python311\Lib\site-packages\bardapi\core.py", line 494, in _get_snim0e
+    raise Exception(
+Exception: __Secure-1PSID value must end with a single dot. Enter correct __Secure-1PSID value.[0m
+[30;1m2023-07-31 14:43:01[0m [33;1mWARNING [0m [35msrc.setChatbot[0m -> [31mfintafix#0 set Google Bard successful[0m
+[30;1m2023-07-31 14:43:29[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : 'Привет' (загальний)
+[30;1m2023-07-31 14:43:48[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : 'Тест1' (загальний)
+[30;1m2023-07-31 14:44:44[0m [33;1mWARNING [0m [35msrc.setChatbot[0m -> [31mfintafix#0 set Google Bard successful[0m
+[30;1m2023-08-14 19:17:47[0m [34;1mINFO    [0m [35m__main__[0m -> Fin.AI#8060 is now running!
+[30;1m2023-08-14 19:18:29[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : '1' (finau)
+[30;1m2023-08-14 19:19:24[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : 'hello' (finau)
+[30;1m2023-08-14 19:19:39[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : 'Я знаю что ты знаешь русский' (finau)
+[30;1m2023-08-14 19:22:25[0m [34;1mINFO    [0m [35mcogs.bardgpt[0m -> [31mfintafix#0[0m : 'Как меня зовут?' (📙ии-бот📘)
